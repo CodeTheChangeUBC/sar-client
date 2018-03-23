@@ -25,7 +25,10 @@ yarn-error.log*
 *.class
 
 # React native bundle
-android/app/src/main/assets/index.android.bundle
+android/app/src/main/assets/index.android*
+android/build
+android/app/build
+android/.gradle
 
 # Binary intermediary artifacts
 *.o

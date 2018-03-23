@@ -12,6 +12,8 @@ import {
   View
 } from 'react-native';
 
+import {} from './lib/UdpListener';
+
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' +
     'Cmd+D or shake for dev menu',
