@@ -1,12 +1,12 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
-# expo
+# Expo
 .expo/
 
-# dependencies
-/node_modules
+# Dependencies
+node_modules/
 
-# misc
+# Misc
 .env.local
 .env.development.local
 .env.test.local
@@ -16,7 +16,22 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# vim swap files
+# Vim swap files
 *.swp
 
 .DS_Store
+
+# Java build artifacts
+*.class
+
+# React native bundle
+android/app/src/main/assets/index.android.bundle
+
+# Binary intermediary artifacts
+*.o
+*.a
+*.so
+
+*.obj
+*.lib
+*.dll
